@@ -1,0 +1,35 @@
+{
+  "HALProvider": {
+    "PWM Outputs": {
+      "window": {
+        "visible": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Climbsubsystem": "Subsystem",
+      "/LiveWindow/Drivesubsysteme": "Subsystem",
+      "/LiveWindow/Funelsubsytem": "Subsystem",
+      "/LiveWindow/Intakesubsystem": "Subsystem",
+      "/LiveWindow/Shootersubsystem": "Subsystem",
+      "/LiveWindow/Turetsubsystem": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/VisionSubsystem": "Subsystem"
+    },
+    "windows": {
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/LiveWindow/Ungrouped/Scheduler": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  }
+}
